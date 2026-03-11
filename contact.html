@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/icon3.jpeg">
+  <title>お問い合わせ | Moonlight Web Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&amp;family=Cormorant+Garamond:wght@300;400;500&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+  <main class="contact-page">
+    <div id="contact-content">
+      <!-- section-title -->
+      <div class="section-title">
+        <p class="section-title__en font-display">CONTACT</p>
+        <h1 class="section-title__ja gradient-text">お問い合わせ</h1>
+      </div>
+
+      <p class="contact-description">
+        ご相談・お見積りは無料です。お気軽にお問い合わせください。
+      </p>
+
+      <!-- フォーム -->
+      <form id="contact-form" class="contact-form">
+
+        <div class="form-group">
+          <label for="name">お名前 <span>*</span></label>
+          <input type="text" id="name" name="name" autocomplete="off" placeholder="山田 太郎">
+          <p id="name-error" class="error-text is-hidden">
+            お名前を入力してください
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label for="email">メールアドレス <span>*</span></label>
+          <input type="email" id="email" name="email" autocomplete="off" placeholder="example@email.com">
+          <p id="email-error" class="error-text is-hidden">
+            正しいメールアドレスを入力してください
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label for="message">お問い合わせ内容 <span>*</span></label>
+          <textarea id="message" name="message" rows="6" autocomplete="off" placeholder="ご依頼内容やご質問をお書きください"></textarea>
+          <p id="message-error" class="error-text is-hidden">
+            お問い合わせ内容を入力してください
+          </p>
+        </div>
+
+        <button type="submit" class="submit-button">
+          送信する
+        </button>
+
+      </form>
+    </div>
+
+    <!-- 成功メッセージ -->
+    <div id="success-message" class="success-message is-hidden">
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+        <circle cx="32" cy="32" r="28" stroke="#fff8dc" stroke-width="2" />
+        <path d="M20 32L28 40L44 24" stroke="#fff8dc" stroke-width="3" />
+      </svg>
+      <h3 class="font-display success-title">送信完了</h3>
+      <p class="success-text">
+        お問い合わせありがとうございます<br><br>
+        内容を確認の上、2〜3営業日以内にご返信いたします。
+      </p>
+      <div class="back-btn">
+        <a href="c.index.html" class="btn-tertiary">
+            戻る →
+        </a>
+      </div>
+    </div>
+
+
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

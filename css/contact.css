@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* ==========================
+  お問い合わせ・全体
+========================== */
+.contact-page {
+  min-height: 100vh;
+  padding: 4rem 1.5rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.contact-description {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+
+/* ============================
+  お問い合わせ・フォーム共通
+============================= */
+.contact-form {
+  padding: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(45,55,72,0.8) 0%,
+    rgba(61,74,92,0.6) 100%
+  );
+  border: 1px solid rgba(255,248,220,0.1);
+}
+
+
+/* ============================
+  お問い合わせ・フォーム項目
+============================= */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  color: #fff8dc;
+}
+
+.form-group span {
+  color: #e57373;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+  background: rgba(26,31,46,0.8);
+  border: 1px solid rgba(255,248,220,0.2);
+  color: #e8e4dc;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgba(255,248,220,0.5);
+}
+.form-textarea {
+  resize: none;
+}
+
+
+/* ============================
+  お問い合わせ・エラーメッセージ
+============================= */
+.error-text {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  color: #e57373;
+}
+
+
+/* ============================
+    お問い合わせ・送信ボタン
+============================= */
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 999px;
+  border: none;
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  background: linear-gradient(135deg, #fff8dc 0%, #e6d5a8 100%);
+  color: #1a1f2e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  opacity: 0.9;
+}
+
+
+/* ============================
+    お問い合わせ・送信完了
+============================= */
+.success-message {
+  margin: 2.5rem 0;
+  padding: 4rem 2.8rem;
+  border-radius: 1rem;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgba(45,55,72,0.8) 0%,
+    rgba(61,74,92,0.6) 100%
+  );
+  border: 1px solid rgba(255,248,220,0.1);
+}
+
+.success-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff8dc;
+}
+
+.success-text {
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  color: #c9c4b8;
+}
+
+.back-btn {
+  padding-top: 1rem;
+}
+@media (min-width: 768px) {
+  .success-message {
+    padding: 4rem 2rem;
+  }
+}
+ 
+/* ============================
+    お問い合わせ・全体
+============================= */
+
+.is-hidden {
+  display: none;
+}
+
