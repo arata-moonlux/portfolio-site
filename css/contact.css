@@ -10,8 +10,10 @@
 }
 
 .contact-description {
+  max-width: 18rem;
   text-align: center;
   padding: 2rem 0;
+  margin: auto;
 }
 
 

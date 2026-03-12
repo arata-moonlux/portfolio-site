@@ -186,21 +186,6 @@ figcaption::before{
   }
 }
 
-/* ================================
-  Works Note
-================================ */
-.works-note {
-  margin-top: 3rem;
-  padding: 2rem;
-  text-align: center;
-  background: rgba(45,55,72,0.4);
-  border: 1px solid rgba(255,248,220,0.1);
-  border-radius: 1.5rem;
-}
-.works-note p {
-  padding-bottom: 1.2rem;
-}
-
 /* ===============================
   個別CSS
 =============================== */

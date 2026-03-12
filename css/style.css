@@ -144,12 +144,31 @@ a {
   text-align: center;
 }
 
+.works-note {
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(45,55,72,0.4);
+  border: 1px solid rgba(255,248,220,0.1);
+  border-radius: 1.5rem;
+}
+.works-note p {
+  max-width: 13.8rem;
+  font-size: 0.875rem;
+  padding-bottom: 1.2rem;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .works-note p {
+    max-width: 100%;
+  }
+}
 /* =========================
   section-title
 ========================= */
 .section-title {
   text-align: center; 
-  padding-bottom: 3.5rem;
+  padding-bottom: 3rem;
 }
 
 .section-title__en {
@@ -609,6 +628,8 @@ a {
 }
 
 .service-card__description {
+  max-width: 15rem;
+  margin: auto;
   font-size: 0.875rem;
   line-height: 2;
   margin-bottom: 1rem;
@@ -624,6 +645,11 @@ a {
   font-size: 0.875rem;
 }
 
+@media (min-width: 768px) {
+  .service-card__description {
+    max-width: 100%; 
+  }
+}
 
 /* =========================
    制作フロー・ステップ一覧
