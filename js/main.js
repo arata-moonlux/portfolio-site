@@ -90,8 +90,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 成功時
     if (isValid) {
-      content.classList.add("is-hidden");
-      success.classList.remove("is-hidden");
+
+      emailjs.sendForm(
+        "service_vciyoap",
+        "template_pcbomfu",
+        form
+      ).then(function () {
+
+        content.classList.add("is-hidden");
+        success.classList.remove("is-hidden");
+
+        form.reset();
+
+      }, function (error) {
+
+        alert("送信に失敗しました");
+
+      });
+
     }
   });
 
