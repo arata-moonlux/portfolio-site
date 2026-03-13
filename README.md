@@ -33,13 +33,13 @@
  * HTML5
  * CSS3 / Tailwind系クラス整理
  * JavaScript
-  
-  * Flexbox
-  * Grid
-  * レスポンシブデザイン（ SP / PC ）
-  * ハンバーガーメニュー
-  * お問い合わせフォーム設置
-  * EmailJSの導入
+   
+   * Flexbox
+   * Grid
+   * レスポンシブデザイン（ SP / PC ）
+   * ハンバーガーメニュー
+   * お問い合わせフォーム設置
+   * EmailJSの導入
 
 
 ## 開発環境
