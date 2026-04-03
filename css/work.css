@@ -119,15 +119,10 @@ h2 {
 /* ================================
   Key Section
 ================================ */
-.key-section {
-  padding-bottom: 3rem;
-}
-
-.key {
+.key, .difference {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(1,1fr);
-  
 }
 
 figure img {
@@ -152,9 +147,19 @@ figcaption::before{
 }
 
 @media (min-width: 768px) {
+  .key-section {
+    padding-bottom: 3rem;
+  }
   .key {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+  }
+  .difference {
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+  }
+  .difference img {
+    height: 20rem;
   }
 }
 
